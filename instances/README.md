@@ -3,6 +3,16 @@
 The instances in this folder are for solving the wildlife corridor design problem which
 also corresponds to the Connected Subgraph Problem.
 
+### Instance types
+
+1. [Artificially generated instances](artificial/) 
+  Generated using this [instance generator](http://computational-sustainability.cis.cornell.edu/Datasets/corGenerator.zip) 
+  with the slight adaption that assures that the utility values are always non-negative.
+
+2. [Grizzly instances with budget constants](grizzly/) based on the instances 
+  [grizzly-instances.zip](http://computational-sustainability.cis.cornell.edu/Datasets/grizzly-instances.zip). 
+
+
 ### Instance format
 
 The instance format is specified below (based on the description from the [grizzly-instances.zip](http://computational-sustainability.cis.cornell.edu/Datasets/grizzly-instances.zip)).
@@ -25,8 +35,9 @@ The instance format is specified below (based on the description from the [grizz
 
 #### Example
 
-Example file content of a `.cor` instance describing square grid graph of order 3 
-with 9 nodes (parcels), 2 reserves (nodes 0 and 8), and with a budget of 38.
+Example file content of a `.cor` instance describing a graph with 9 nodes (parcels), 
+2 reserves (nodes 0 and 8) and with a budget of 38. As an example, node 5 has a 
+profit of 20 and a cost of 46, and is connected with 3 nodes: 2,4 and 8. 
 
 ``` 
 c This is a comment
@@ -42,13 +53,4 @@ n 7 0 32 43 3 4 6 8
 n 8 1 27 0 2 5 7
 b 38
 ```
-
-### Instance types
-
-1. [Artificially generated instances](instances/artificial) 
-  Generated using this [instance generator](http://computational-sustainability.cis.cornell.edu/Datasets/corGenerator.zip) 
-  with the slight adaption that assures that the utility values are always non-negative.
-
-2. [Grizzly instances with budget constants](instances/grizzly) based on the instances 
-  [grizzly-instances.zip](http://computational-sustainability.cis.cornell.edu/Datasets/grizzly-instances.zip). 
 
