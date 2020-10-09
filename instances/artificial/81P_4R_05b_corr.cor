@@ -109,3 +109,5 @@ n 77 0 73 83 3 68 76 78
 n 78 0 123 98 3 69 77 79
 n 79 0 40 5 3 70 78 80
 n 80 0 26 23 2 71 79
+c the budget calculated from the minimum Steiner tree cost plus 5.0%.
+b 460

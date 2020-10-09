@@ -90,8 +90,8 @@ def create_new_cor_instance_with_budget_constant(input_file: str, output_file: s
     new_instance_file = open(output_file, "w")
     with open(input_file, "r") as f:
         new_instance_file.write(f.read())
-    append_budget_constant_to_instance_file(output_file, budget, percentage)
     new_instance_file.close()
+    append_budget_constant_to_instance_file(output_file, budget, percentage)
 
 
 def main():
