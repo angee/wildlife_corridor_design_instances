@@ -9,6 +9,9 @@
 # 2. Taking the Steiner tree cost, and increasing it by X%
 # 3. Extending the given .cor file with the budget constant, adding the line "b Y" where Y is the budget constant
 #
+# This file is part of the wildlife_corridor_design_instances repository which is released under the MIT license.
+# See file at https://github.com/angee/wildlife_corridor_design_instances/blob/master/LICENSE for full license details.
+#
 # Author: Andrea Rendl-Pitrey, Satalia, October 2020
 # ---------------------------------------------------------------------------------------------------------------------
 

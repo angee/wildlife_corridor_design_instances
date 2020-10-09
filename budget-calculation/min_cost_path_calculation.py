@@ -8,6 +8,9 @@
 # edges) and calculates the shortest path on the line graph and converts the result for
 # the original graph.
 #
+# This file is part of the wildlife_corridor_design_instances repository which is released under the MIT license.
+# See file at https://github.com/angee/wildlife_corridor_design_instances/blob/master/LICENSE for full license details.
+#
 # Author: Andrea Rendl-Pitrey, Satalia, October 2020
 # ----------------------------------------------------------------------------------------------------------------------
 

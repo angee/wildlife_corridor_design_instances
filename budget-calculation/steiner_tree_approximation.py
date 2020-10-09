@@ -28,6 +28,9 @@
 # 4. Connect the remaining two trees in T through their min cost path which yields a
 #    Steiner tree approximation
 #
+# This file is part of the wildlife_corridor_design_instances repository which is released under the MIT license.
+# See file at https://github.com/angee/wildlife_corridor_design_instances/blob/master/LICENSE for full license details.
+#
 # Author: Andrea Rendl-Pitrey, September 2020
 # ---------------------------------------------------------------------------------------------------------------------
 
