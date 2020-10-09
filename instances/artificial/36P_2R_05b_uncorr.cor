@@ -1,0 +1,64 @@
+c command line = ./corGenerator lattice random 2 uncorrelated 6 100 70 36P_2R_uncorr 1 1
+c Seed = 1
+c 
+c Corridor instance
+c Format:
+c p n r
+c   n is the number of parcels, n is  an integer;
+c   r is the number of reserves, n is  an integer;
+c n i b u c e i1 i2 ...  ie
+c   i is the id number of the node, i is an integer; 
+c   b whether the node is a reserve; b is 0 or 1; 
+c   u is the utility of the node; u is an integer; 
+c   c is the cost of the node; c is an integer; 
+c   e is the number of neighboring nodes; e is an integer; 
+c   ij is the id of neighbor node j (j=1,2, ... ,e) 
+c  
+c 
+c n = 36
+c r = 2
+c l = 100
+c d = 70
+c terminalmodel = random
+c utilmodel = uncorrelated
+c reserve 11
+c reserve 19
+c 
+c 
+p 36 2
+n 0 0 6 78 2 1 6
+n 1 0 46 94 3 0 2 7
+n 2 0 3 87 3 1 3 8
+n 3 0 32 50 3 2 4 9
+n 4 0 48 63 3 3 5 10
+n 5 0 40 91 2 4 11
+n 6 0 57 64 3 0 7 12
+n 7 0 37 41 4 1 6 8 13
+n 8 0 17 73 4 2 7 9 14
+n 9 0 29 12 4 3 8 10 15
+n 10 0 10 68 4 4 9 11 16
+n 11 1 3 0 3 5 10 17
+n 12 0 13 31 3 6 13 18
+n 13 0 58 24 4 7 12 14 19
+n 14 0 20 36 4 8 13 15 20
+n 15 0 53 3 4 9 14 16 21
+n 16 0 60 59 4 10 15 17 22
+n 17 0 44 68 3 11 16 23
+n 18 0 52 57 3 12 19 24
+n 19 1 3 0 4 13 18 20 25
+n 20 0 54 30 4 14 19 21 26
+n 21 0 50 22 4 15 20 22 27
+n 22 0 18 85 4 16 21 23 28
+n 23 0 45 99 3 17 22 29
+n 24 0 51 16 3 18 25 30
+n 25 0 27 14 4 19 24 26 31
+n 26 0 51 92 4 20 25 27 32
+n 27 0 24 57 4 21 26 28 33
+n 28 0 61 63 4 22 27 29 34
+n 29 0 32 97 3 23 28 35
+n 30 0 56 6 2 24 31
+n 31 0 48 85 3 25 30 32
+n 32 0 6 37 3 26 31 33
+n 33 0 40 47 3 27 32 34
+n 34 0 8 14 3 28 33 35
+n 35 0 46 25 2 29 34
