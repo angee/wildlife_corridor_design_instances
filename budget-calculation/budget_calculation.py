@@ -47,7 +47,7 @@ def parse_args():
     parser.add_argument("-o", dest="output_file", required=False, default="",
                         help="the file into which to write the .cor instance with budget constant", metavar="FILE")
     parser.add_argument("-b", dest="budget_percent", required=False, default=0.1,
-                        help="the percentage to add to lower bound for budget, e.g. 0.1 for 10%")
+                        help="the percentage to add to lower bound for budget, e.g. 0.1 for 10 percent")
     parser.add_argument("-s", dest="seed", required=False, default=11,
                         help="the seed for the steiner tree approximation algorithm")
     return parser.parse_args()
