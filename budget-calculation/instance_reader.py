@@ -66,7 +66,7 @@ def create_graph_from_adjacency_matrix(nb_nodes: int, adjacency_matrix: list, co
     :return:
     """
     graph = nx.Graph()
-    for source in range(1, nb_nodes - 1):
+    for source in range(0, nb_nodes - 1):
         for target in range(source + 1, nb_nodes):
             if adjacency_matrix[source][target] == 1:
                 if not graph.has_node(source):

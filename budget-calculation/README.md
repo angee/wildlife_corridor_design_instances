@@ -37,3 +37,14 @@ to be 15% over the budget lower bound, you state:
 The default budget percentage is 10%. You can also specify a seed for the budget calculation
 with the option `-s`. Note that the program always sets a predefined seed, so running it
 without seed will still be deterministic.
+
+
+### Running budget calculation for all artificial instances
+
+To run the budget calculation on all artificial instances files, execute the Bash shell
+script `calculate_budget.sh` in your Bash terminal:
+
+    ./calculate_budget.sh
+
+This will use the `.cor.orig` files in the `instances/artificial/` directory to generate the
+(existing) instance files in the same folder.

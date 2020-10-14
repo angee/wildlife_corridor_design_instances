@@ -13,7 +13,13 @@ also corresponds to the Connected Subgraph Problem.
   [grizzly-instances.zip](http://computational-sustainability.cis.cornell.edu/Datasets/grizzly-instances.zip). 
 
 
+### Instance File Types
+
+The `.cor` files are the instances files that include a budget constant, and the `.cor.orig` files are the original files (as generated with the instance generator or as obtained from the Grizzly data set) without budget constant.
+
+
 ### Instance format
+
 
 The instance format is specified below (based on the description from the [grizzly-instances.zip](http://computational-sustainability.cis.cornell.edu/Datasets/grizzly-instances.zip)).
 
@@ -36,7 +42,7 @@ The instance format is specified below (based on the description from the [grizz
 #### Example
 
 Example file content of a `.cor` instance describing a graph with 9 nodes (parcels), 
-2 reserves (nodes 0 and 8) and with a budget of 38. As an example, node 5 has a 
+2 reserves (nodes 0 and 8) and with a budget of 380. As an example, node 5 has a 
 profit of 20 and a cost of 46, and is connected with 3 nodes: 2,4 and 8. 
 
 ``` 
@@ -51,6 +57,6 @@ n 5 0 20 46 3 2 4 8
 n 6 0 30 38 2 3 7
 n 7 0 32 43 3 4 6 8
 n 8 1 27 0 2 5 7
-b 38
+b 380
 ```
 
